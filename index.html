@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Giantmedia, Home page</title>
+</head>
+<body>
+  <div class="header">
+    <div class="logo"><img src="mages/blogo.jpg" alt="icon"></div>
+    <nav class="nav-right">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="courses.html">Courses</a>
+          <ul class="dropdown">
+            <li><a href="">Cyber Security</a></li>
+            <li><a href="#science">Computer Science</a></li>
+            <li><a href="#graphics">Graphics Design</a></li>
+            <li><a href="#data">Data Analysis</a></li>
+            <li><a href="#engineering">Software Engineering</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Register</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!--Introduction-->
+  <section>
+    <div class="text-container">
+      <h1>WHY CHOOSE US</h1>
+      <p>There are countless ways that computer science is used in the professional world today. One of the most significant advances in computer science, for example, is artificial intelligence (AI), which leverages computing power to enable machines to perform complex tasks that traditionally only humans could perform. Already, AI is being used in a wide range of different industries, including automotive, retail, and health care.</p>
+    </div>
+
+    <div class="image-container">
+      <img src="mages/ds.jpg" alt="None">
+    </div>
+  </section>
+
+  <!--Courses Section-->
+  <h1 style="text-align: center;font-weight: bold;">Our Courses</h1>
+  <div class="Courses">
+    <div class="course" id="science">
+      <img src="mages/scence.jpg" alt="Computer science">
+      <h3>Computer Science</h3>
+      <p>One of the most significant advances in computer science, for example, is artificial intelligence (AI), which leverages computing power to enable machines to perform complex tasks that traditionally only humans could perform</p>
+      <button>Read more</button>
+    </div>
+
+    <div class="course" id="security">
+      <img src="mages/cyb.jpg" alt="Computer science">
+      <h3>Cyber Security</h3>
+      <p>One of the most significant advances in computer science, for example, is artificial intelligence (AI), which leverages computing power to enable machines to perform complex tasks that traditionally only humans could perform</p>
+      <button>Read more</button>
+    </div>
+
+    <div class="course" id="engineering">
+      <img src="mages/eng.jpg" alt="Computer science">
+      <h3>Software Engineering</h3>
+      <p>One of the most significant advances in computer science, for example, is artificial intelligence (AI), which leverages computing power to enable machines to perform complex tasks that traditionally only humans could perform</p>
+      <button>Read more</button>
+    </div>
+
+    <div class="course" id="graphics">
+      <img src="mages/graph.jpg" alt="Computer science">
+      <h3>Graphics Design</h3>
+      <p>Graphices design has become a hinge in the wolrd of computing say animatins for games, 3D rendering and printing. With us, you aquire the best of Graphics</p>
+      <button>Read more</button>
+    </div>
+  </div>
+  <form class="form" action="index.php" method="POST">
+    <h2>CONTACT US</h2>
+    <label >Name</label><input type="text" name="name" placeholder="Write your name here.." required></input></p>
+    <label >Email</label><input type="text" name="email" placeholder="Let us know how to contact you back.." required></input></p>
+    <label >Message</label><input type="textarea" name="message"  placeholder="What would you like to tell us.." required></input></p>
+    <input type="submit" name="submit"  value="Send Message" id="btn">
+  </form>
+  <!--footer section-->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h3>Contacts</h3>
+      <div class="icons">
+      <ul>
+        <li><a href=""><i class="fa-brands fa-square-x-twitter"></i>&nbsp;&nbsp;Twitter</a></li>
+        <li><a href="tel:+256782978546"><i class="fa-brands fa-whatsapp" style="color: green;"></i>&nbsp;&nbsp;0782978543</a></li>
+        <li><a href="http://www.youtube.com/@giantmedia256"><i class="fa-brands fa-youtube" style="color: rgb(187, 58, 58);"></i>&nbsp;&nbsp;Youtube</a></li>
+      </ul>
+    </div>
+    </div>
+
+    <div class="footer-column">
+      <h3>Locations</h3>
+      <ul>
+        <li><i class="fa-solid fa-earth-americas" style="padding-right: 20px; font-size: 20px;"></i>Headquarters: 084 Nakibinge Rd, Namungoona, Kampala-Uganda</li>
+        <li><i class="fa-solid fa-code-branch" style="padding-right: 20px; font-size: 20px;"></i>Branch Office: Bukere T/C, Kyegegwa District, Mbarara-Uganda</li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Links</h3>
+      <ul>
+        <li><i class="fa-solid fa-house" style="padding-right: 20px; color: rgba(120, 54, 109, 1); font-size: 20px;"></i><a href="#">Home</a></li>
+        <li><i class="fa-solid fa-graduation-cap" style="padding-right: 20px; font-size: 20px;";></i><a href="courses.html">Courses</a></li>
+        <li><i class="fa-solid fa-phone-volume" style="padding-right: 20px";></i><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-copyright">
+    &copy; 2024 Giantmedia. All Rights Reserved.
+  </div>
+</footer>
+</body>
+</html>
